@@ -1,34 +1,62 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
-    <title>Резюме</title>
-  </head>
-  <body>
-    <main>
-      <h1>Егор Реутов</h1>
-      <h2>QA Engineer/SDET</h2>
-      <section>
-        <h2>Навыки</h2>
-        <ul>
-          <li>Python</li>
-          <li>JS/TS</li>
-          <li>Functional testing</li>
-        </ul>
-      </section>
-      <section>
-        <h2>Дополнительная инфоомация</h2>
-        <p>Ориентированный на результат инженер по обеспечению качества.</p>
-      </section>
-      <section>
-        <h2>Образование</h2>
-        <ul>
-          <li>Рязанский филиал ПГУПС</li>
-          <li>Курсы Hexlet</li>
-        </ul>
-      </section>
-    </main>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Резюме Реутов Егор - SDET с опытом работы в веб-разработке и тестировании ПО." />
+        <title>Резюме Реутов</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+        <link rel="stylesheet" href="./css/main.css" />
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="header-left">
+                    <h1>Реутов Егор</h1>
+                    <p class="job-title">QA/SDET</p>
+                    <span class="resume-photo">
+                        <img src="./img/myImg.jpg" alt class="resume-media-img" loading="lazy" alt="My Photo" />
+                    </span>
+                    <address class="contact-info">
+                        <span><i class="fas fa-envelope"></i> reutov622@gmail.com</span>
+                        <a><i class="fa-brands fa-telegram"></i> <link rel="stylesheet" href="https://t.me/Gnomemool" /> @Gnomemool </a>
+                        <span><i class="fas fa-map-marker-alt"></i> Москва, Россия</span>
+                    </address>
+                </div>
+            </div>
+        </header>
+
+        <main class="content">
+            <section id="experience">
+                <h2>Опыт работы</h2>
+                <article class="job">
+                    <h3>Веб-разработчик, Компания ABC</h3>
+                    <span class="job-date">Июль 2020 - настоящее время</span>
+                    <p>Разработка и поддержка веб-приложений на JavaScript, HTML, CSS и Node.js.</p>
+                </article>
+                <article class="job">
+                    <h3>Фронтенд-разработчик, Компания XYZ</h3>
+                    <span class="job-date">Июнь 2018 - Июнь 2020</span>
+                    <p>Работа с React и Redux, создание пользовательских интерфейсов.</p>
+                </article>
+            </section>
+
+            <aside class="sidebar">
+                <section id="skills">
+                    <h2>Навыки</h2>
+                    <ul>
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>React, Redux</li>
+                        <li>Node.js, Express</li>
+                        <li>Git, GitHub</li>
+                    </ul>
+                </section>
+
+                <section id="education">
+                    <h2>Образование</h2>
+                    <p>Бакалавр компьютерных наук, Университет IT, 2014-2018</p>
+                </section>
+            </aside>
+        </main>
+    </body>
 </html>
